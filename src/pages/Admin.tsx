@@ -7,7 +7,7 @@ import { subscriberAPI, newsletterAPI } from '../services/api';
 import { useAuthStore } from '../stores/authStore';
 import axios from 'axios';
 
-const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:3000';
+const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:3000/api';
 
 interface Subscriber {
   email: string;
